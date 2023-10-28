@@ -45,19 +45,4 @@ if __name__ == "__main__":
             resultado = agenda.buscar_contacto(nombre)
             print(resultado)
 
-        elif opcion == "3":
-            nombre = input("Nombre del contacto a eliminar: ")
-            resultado = agenda.eliminar_contacto(nombre)
-            print(resultado)
-
-        elif opcion == "4":
-            lista_contactos = agenda.listar_contactos()
-            print("Contactos:")
-            print(lista_contactos)
-
-        elif opcion == "5":
-            print("¡Hasta luego!")
-            break
-
-        else:
-            print("Opción no válida. Por favor, seleccione una opción válida.")
+        
